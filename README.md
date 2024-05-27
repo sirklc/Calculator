@@ -89,7 +89,7 @@ The result is: 4.0
 <p>Katkılarınızı memnuniyetle karşılıyoruz! Lütfen değişiklikler için bir pull request oluşturun.</p>
 
 <h3>📧 İletişim</h3>
-<p>Eğer proje ile ilgili herhangi bir sorunuz varsa, lütfen <a href="mailto:contact@kilicmehmet.com">email@example.com</a> adresinden benimle iletişime geçin.</p>
+<p>Eğer proje ile ilgili herhangi bir sorunuz varsa, lütfen <a href="mailto:contact@kilicmehmet.com">contact@kilicmehmet.com</a> adresinden benimle iletişime geçin.</p>
 
 <h3>🌟 Teşekkürler</h3>
 <p>Bu projeyi incelediğiniz için teşekkür ederim! Eğer beğendiyseniz, lütfen bir yıldız bırakın ⭐️</p>
