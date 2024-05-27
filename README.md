@@ -1,44 +1,42 @@
+<h1>🧮 Simple Calculator Project</h1>
+<p>This project is a basic calculator application written in Python. It allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division, as well as advanced operations like exponentiation, square root calculation, absolute value, trigonometric functions, and logarithm calculation.</p>
 
+<h2>🚀 Getting Started</h2>
+<p>These instructions will guide you on how to run this project on your local machine.</p>
 
-<h1>🧮 Basit Hesap Makinesi Projesi</h1>
-<p>Bu proje, Python ile yazılmış temel bir hesap makinesi uygulamasıdır. Kullanıcıların toplama, çıkarma, çarpma, bölme gibi temel matematiksel işlemleri yapmasına olanak tanır ve ayrıca üs alma, karekök hesaplama, mutlak değer, trigonometrik fonksiyonlar ve logaritma hesaplama gibi ileri düzey işlemleri de destekler.</p>
-
-<h2>🚀 Başlarken</h2>
-<p>Bu talimatlar, bu projeyi kendi yerel makinenizde nasıl çalıştıracağınıza dair bilgiler içermektedir.</p>
-
-<h3>📋 Gereksinimler</h3>
+<h3>📋 Requirements</h3>
 <ul>
     <li>Python 3.x</li>
-    <li>math kütüphanesi (Python'un standart kütüphanesi içinde yer alır)</li>
+    <li>math library (included in Python's standard library)</li>
 </ul>
 
-<h3>🔧 Kurulum</h3>
-<p>Projeyi klonlayın:</p>
+<h3>🔧 Installation</h3>
+<p>Clone the project:</p>
 <pre><code>git clone https://github.com/_mehmetkilic35/Calculator</code></pre>
 
-<h3>🚀 Kullanım</h3>
-<p>Hesap makinesi programını çalıştırmak için terminal veya komut istemcisinde şu komutu çalıştırın:</p>
+<h3>🚀 Usage</h3>
+<p>To run the calculator program, execute the following command in your terminal or command prompt:</p>
 <pre><code>python calculator.py</code></pre>
 
-<h3>💻 Fonksiyonlar</h3>
-<p>Bu hesap makinesi aşağıdaki işlemleri destekler:</p>
+<h3>💻 Functions</h3>
+<p>This calculator supports the following operations:</p>
 <ol>
-    <li>Toplama (add) - İki sayıyı toplar.</li>
-    <li>Çıkarma (subtract) - İkinci sayıyı birinciden çıkarır.</li>
-    <li>Çarpma (multiply) - İki sayıyı çarpar.</li>
-    <li>Bölme (divide) - İlk sayıyı ikinci sayıya böler (0'a bölünemez).</li>
-    <li>Üs Alma (power) - İlk sayının ikinci sayıya üssünü alır.</li>
-    <li>Karekök (square_root) - Sayının karekökünü alır (negatif sayıların karekökü alınamaz).</li>
-    <li>Mutlak Değer (absolute_value) - Sayının mutlak değerini döner.</li>
-    <li>Sinüs (sine) - Sayının sinüs değerini döner (radyan cinsinden).</li>
-    <li>Kosinüs (cosine) - Sayının kosinüs değerini döner (radyan cinsinden).</li>
-    <li>Tanjant (tangent) - Sayının tanjant değerini döner (radyan cinsinden).</li>
-    <li>Logaritma (logarithm) - Sayının belirtilen tabana göre logaritmasını döner (pozitif sayılar için).</li>
-    <li>Doğal Logaritma (natural_log) - Sayının doğal logaritmasını döner (pozitif sayılar için).</li>
+    <li>Addition (add) - Adds two numbers.</li>
+    <li>Subtraction (subtract) - Subtracts the second number from the first.</li>
+    <li>Multiplication (multiply) - Multiplies two numbers.</li>
+    <li>Division (divide) - Divides the first number by the second (cannot divide by 0).</li>
+    <li>Exponentiation (power) - Raises the first number to the power of the second number.</li>
+    <li>Square Root (square_root) - Returns the square root of the number (cannot calculate the square root of negative numbers).</li>
+    <li>Absolute Value (absolute_value) - Returns the absolute value of the number.</li>
+    <li>Sine (sine) - Returns the sine of the number (in radians).</li>
+    <li>Cosine (cosine) - Returns the cosine of the number (in radians).</li>
+    <li>Tangent (tangent) - Returns the tangent of the number (in radians).</li>
+    <li>Logarithm (logarithm) - Returns the logarithm of the number to the specified base (for positive numbers).</li>
+    <li>Natural Logarithm (natural_log) - Returns the natural logarithm of the number (for positive numbers).</li>
 </ol>
 
-<h3>🛠️ Kullanım Örnekleri</h3>
-<p>1. Toplama işlemi:</p>
+<h3>🛠️ Usage Examples</h3>
+<p>1. Addition operation:</p>
 <pre><code>python calculator.py
 Select operation:
 1. add
@@ -59,7 +57,7 @@ Enter second number: 5
 The result is: 15.0
 </code></pre>
 
-<p>2. Karekök işlemi:</p>
+<p>2. Square root operation:</p>
 <pre><code>python calculator.py
 Select operation:
 1. add
@@ -79,20 +77,20 @@ Enter the number: 16
 The result is: 4.0
 </code></pre>
 
-<h3>📦 Dağıtım</h3>
-<p>Bu projeyi bir .exe dosyasına dönüştürmek için <code>pyinstaller</code> kullanılabilir. Daha fazla bilgi için <a href="https://pyinstaller.readthedocs.io/en/stable/">PyInstaller Dokümantasyonu</a> ziyaret edilebilir.</p>
+<h3>📦 Distribution</h3>
+<p>To convert this project to an .exe file, you can use <code>pyinstaller</code>. For more information, visit the <a href="https://pyinstaller.readthedocs.io/en/stable/">PyInstaller Documentation</a>.</p>
 
-<h3>📝 Lisans</h3>
-<p>Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.</p>
+<h3>📝 License</h3>
+<p>This project is licensed under the MIT License. See the LICENSE file for more information.</p>
 
-<h3>🤝 Katkıda Bulunma</h3>
-<p>Katkılarınızı memnuniyetle karşılıyoruz! Lütfen değişiklikler için bir pull request oluşturun.</p>
+<h3>🤝 Contributing</h3>
+<p>Contributions are welcome! Please create a pull request for any changes.</p>
 
-<h3>📧 İletişim</h3>
-<p>Eğer proje ile ilgili herhangi bir sorunuz varsa, lütfen <a href="mailto:contact@kilicmehmet.com">contact@kilicmehmet.com</a> adresinden benimle iletişime geçin.</p>
+<h3>📧 Contact</h3>
+<p>If you have any questions about the project, please contact me at <a href="mailto:contact@kilicmehmet.com">contact@kilicmehmet.com</a>.</p>
 
-<h3>🌟 Teşekkürler</h3>
-<p>Bu projeyi incelediğiniz için teşekkür ederim! Eğer beğendiyseniz, lütfen bir yıldız bırakın ⭐️</p>
+<h3>🌟 Acknowledgments</h3>
+<p>Thank you for reviewing this project! If you liked it, please give it a star ⭐️</p>
 
 </body>
 </html>
