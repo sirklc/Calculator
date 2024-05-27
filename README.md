@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            color: #333;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
-</head>
-<body>
+
 
 <h1>🧮 Basit Hesap Makinesi Projesi</h1>
 <p>Bu proje, Python ile yazılmış temel bir hesap makinesi uygulamasıdır. Kullanıcıların toplama, çıkarma, çarpma, bölme gibi temel matematiksel işlemleri yapmasına olanak tanır ve ayrıca üs alma, karekök hesaplama, mutlak değer, trigonometrik fonksiyonlar ve logaritma hesaplama gibi ileri düzey işlemleri de destekler.</p>
@@ -34,7 +14,7 @@
 
 <h3>🔧 Kurulum</h3>
 <p>Projeyi klonlayın:</p>
-<pre><code>git clone https://github.com/kullanici_adiniz/basit-hesap-makinesi.git</code></pre>
+<pre><code>git clone https://github.com/_mehmetkilic35/Calculator</code></pre>
 
 <h3>🚀 Kullanım</h3>
 <p>Hesap makinesi programını çalıştırmak için terminal veya komut istemcisinde şu komutu çalıştırın:</p>
@@ -109,7 +89,7 @@ The result is: 4.0
 <p>Katkılarınızı memnuniyetle karşılıyoruz! Lütfen değişiklikler için bir pull request oluşturun.</p>
 
 <h3>📧 İletişim</h3>
-<p>Eğer proje ile ilgili herhangi bir sorunuz varsa, lütfen <a href="mailto:email@example.com">email@example.com</a> adresinden benimle iletişime geçin.</p>
+<p>Eğer proje ile ilgili herhangi bir sorunuz varsa, lütfen <a href="mailto:contact@kilicmehmet.com">email@example.com</a> adresinden benimle iletişime geçin.</p>
 
 <h3>🌟 Teşekkürler</h3>
 <p>Bu projeyi incelediğiniz için teşekkür ederim! Eğer beğendiyseniz, lütfen bir yıldız bırakın ⭐️</p>
