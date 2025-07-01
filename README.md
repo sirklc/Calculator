@@ -179,5 +179,5 @@ Bu projeyi incelediğiniz için teşekkürler! Beğendiyseniz ⭐ vermeyi unutma
 ---
 
 **Versiyon**: 2.1  
-**Son Güncelleme**: 2024  
+**Son Güncelleme**: 2025
 **Platform Desteği**: Windows, macOS, Linux
