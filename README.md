@@ -1,96 +1,183 @@
-<h1>🧮 Simple Calculator Project</h1>
-<p>This project is a basic calculator application written in Python. It allows users to perform basic mathematical operations such as addition, subtraction, multiplication, and division, as well as advanced operations like exponentiation, square root calculation, absolute value, trigonometric functions, and logarithm calculation.</p>
+# 🧮 Hesap Makinesi Pro
 
-<h2>🚀 Getting Started</h2>
-<p>These instructions will guide you on how to run this project on your local machine.</p>
+Modern, kullanıcı dostu Python hesap makinesi uygulaması. Temel matematik işlemlerinden ileri bilimsel hesaplamalara kadar geniş özellik yelpazesi sunar.
 
-<h3>📋 Requirements</h3>
-<ul>
-    <li>Python 3.x</li>
-    <li>math library (included in Python's standard library)</li>
-</ul>
+![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows%20|%20macOS%20|%20Linux-lightgrey.svg)
 
-<h3>🔧 Installation</h3>
-<p>Clone the project:</p>
-<pre><code>git clone https://github.com/_mehmetkilic35/Calculator</code></pre>
+## ✨ Özellikler
 
-<h3>🚀 Usage</h3>
-<p>To run the calculator program, execute the following command in your terminal or command prompt:</p>
-<pre><code>python calculator.py</code></pre>
+### 🔢 Temel İşlemler
+- ➕ Toplama, çıkarma, çarpma, bölme
+- 🔢 Ondalık sayı desteği
+- ➕➖ İşaret değiştirme
+- ⌫ Geri silme ve temizleme
 
-<h3>💻 Functions</h3>
-<p>This calculator supports the following operations:</p>
-<ol>
-    <li>Addition (add) - Adds two numbers.</li>
-    <li>Subtraction (subtract) - Subtracts the second number from the first.</li>
-    <li>Multiplication (multiply) - Multiplies two numbers.</li>
-    <li>Division (divide) - Divides the first number by the second (cannot divide by 0).</li>
-    <li>Exponentiation (power) - Raises the first number to the power of the second number.</li>
-    <li>Square Root (square_root) - Returns the square root of the number (cannot calculate the square root of negative numbers).</li>
-    <li>Absolute Value (absolute_value) - Returns the absolute value of the number.</li>
-    <li>Sine (sine) - Returns the sine of the number (in radians).</li>
-    <li>Cosine (cosine) - Returns the cosine of the number (in radians).</li>
-    <li>Tangent (tangent) - Returns the tangent of the number (in radians).</li>
-    <li>Logarithm (logarithm) - Returns the logarithm of the number to the specified base (for positive numbers).</li>
-    <li>Natural Logarithm (natural_log) - Returns the natural logarithm of the number (for positive numbers).</li>
-</ol>
+### 🔬 Bilimsel İşlemler
+- √ Karekök hesaplama
+- x² Kare alma
+- x^y Üs alma
+- 📐 Trigonometrik fonksiyonlar (sin, cos, tan)
+- 📊 Logaritma işlemleri (log, ln)
+- ! Faktöriyel hesaplama
 
-<h3>🛠️ Usage Examples</h3>
-<p>1. Addition operation:</p>
-<pre><code>python calculator.py
-Select operation:
-1. add
-2. subtract
-3. multiply
-4. divide
-5. Power
-6. Square Root
-7. Absolute Value
-8. Sine
-9. Cosine
-10. Tangent
-11. Logarithm
-12. Natural Log
-Enter choice(1/2/3/.../12): 1
-Enter first number: 10
-Enter second number: 5
-The result is: 15.0
-</code></pre>
+### 🧠 Akıllı Özellikler
+- 💾 Hafıza işlemleri (MC, MR, M+, M-)
+- 📜 Hesaplama geçmişi
+- ⌨️ Tam klavye desteği
+- 🎯 Hata yönetimi ve kullanıcı dostu mesajlar
 
-<p>2. Square root operation:</p>
-<pre><code>python calculator.py
-Select operation:
-1. add
-2. subtract
-3. multiply
-4. divide
-5. Power
-6. Square Root
-7. Absolute Value
-8. Sine
-9. Cosine
-10. Tangent
-11. Logarithm
-12. Natural Log
-Enter choice(1/2/3/.../12): 6
-Enter the number: 16
-The result is: 4.0
-</code></pre>
+## 🚀 Hızlı Başlangıç
 
-<h3>📦 Distribution</h3>
-<p>To convert this project to an .exe file, you can use <code>pyinstaller</code>. For more information, visit the <a href="https://pyinstaller.readthedocs.io/en/stable/">PyInstaller Documentation</a>.</p>
+### 📋 Gereksinimler
+- Python 3.6 veya üzeri
+- tkinter (Python ile birlikte gelir)
 
-<h3>📝 License</h3>
-<p>This project is licensed under the MIT License. See the LICENSE file for more information.</p>
+### ⚡ Kurulum ve Çalıştırma
 
-<h3>🤝 Contributing</h3>
-<p>Contributions are welcome! Please create a pull request for any changes.</p>
+```bash
+# Projeyi klonlayın
+git clone https://github.com/sirklc/Calculator.git
+cd Calculator
 
-<h3>📧 Contact</h3>
-<p>If you have any questions about the project, please contact me at <a href="mailto:contact@kilicmehmet.com">contact@kilicmehmet.com</a>.</p>
+# Hesap makinesini çalıştırın
+python3 main.py
+```
 
-<h3>🌟 Acknowledgments</h3>
-<p>Thank you for reviewing this project! If you liked it, please give it a star ⭐️</p>
+**Bu kadar! 🎉 Hesap makinesi otomatik olarak açılacak.**
 
-</body>
-</html>
+## 📁 Proje Yapısı
+
+```
+Calculator/
+├── main.py              # 🚀 Ana başlatıcı
+├── src/                 # 📦 Kaynak kodlar
+│   ├── calculator.py    # 🔧 Hesap makinesi motoru
+│   └── calculator_gui.py # 🖥️ Grafik arayüz
+├── tests/               # 🧪 Test dosyaları
+│   ├── test_calculator.py
+│   ├── test_calculator_class.py
+│   └── run_tests.py     # Test çalıştırıcı
+├── docs/                # 📚 Dokümantasyon
+├── README.md            # 📖 Bu dosya
+└── LICENSE              # 📜 MIT Lisansı
+```
+
+## 🎮 Kullanım
+
+### 🖱️ Fare ile Kullanım
+- Sayıları ve işlemleri butonlara tıklayarak girin
+- Hafıza butonlarını kullanarak değerleri saklayın
+- "Geçmiş" butonuyla hesaplama geçmişini görüntüleyin
+
+### ⌨️ Klavye Kısayolları
+
+| Tuş | İşlev |
+|-----|-------|
+| `0-9` | Sayı girişi |
+| `+` `-` `*` `/` | Matematik işlemleri |
+| `=` `Enter` | Sonuç hesaplama |
+| `Backspace` | Son karakteri sil |
+| `Delete` `C` | Hepsini temizle |
+| `Escape` | Girişi temizle |
+
+### 📖 Örnek Kullanım
+
+```
+Basit hesaplama:
+5 + 3 = 8
+
+Bilimsel hesaplama:
+√25 = 5
+2^8 = 256
+sin(30°) = 0.5
+
+Hafıza kullanımı:
+1. Sayıyı girin: 100
+2. "M+" butonuna basın
+3. Başka hesaplamalar yapın
+4. "MR" ile hafızadaki değeri çağırın
+```
+
+## 🧪 Test Etme
+
+```bash
+# Tüm testleri çalıştır
+cd tests
+python3 run_tests.py
+
+# Tek test dosyası çalıştır
+python3 test_calculator.py
+```
+
+## 🎯 Özellik Detayları
+
+### Hafıza İşlemleri
+- **MC**: Hafızayı temizle
+- **MR**: Hafızadaki değeri çağır
+- **M+**: Mevcut değeri hafızaya ekle
+- **M-**: Mevcut değeri hafızadan çıkar
+
+### Bilimsel Fonksiyonlar
+- **Trigonometrik**: Açılar derece cinsinden işlenir
+- **Logaritma**: 10 tabanında ve doğal logaritma
+- **Faktöriyel**: Tam sayılar için n! hesaplama
+- **Kökler**: Karekök ve üs ile genel kök hesaplama
+
+### Hata Yönetimi
+- ✅ Sıfıra bölme koruması
+- ✅ Negatif sayının karekökü koruması  
+- ✅ Geçersiz giriş koruması
+- ✅ Açık ve anlaşılır hata mesajları
+
+## 🔧 Geliştirici Bilgileri
+
+### Kod Yapısı
+```python
+# Calculator sınıfı kullanımı
+from src.calculator import Calculator
+
+calc = Calculator()
+result = calc.add(5, 3)        # Toplama
+calc.memory_store(result)      # Hafızaya kaydet
+history = calc.get_history()   # Geçmişi al
+```
+
+### Yeni Özellik Ekleme
+1. `src/calculator.py` dosyasına yeni fonksiyon ekleyin
+2. `src/calculator_gui.py` dosyasına buton ekleyin
+3. `tests/` klasörüne test yazın
+4. Test edin ve belgelendirin
+
+## 🐛 Bilinen Sorunlar
+
+- Çok büyük sayılarla taşma (overflow) olabilir
+- Kompleks sayı desteği sınırlı
+
+## 🤝 Katkıda Bulunma
+
+1. 🍴 Projeyi fork edin
+2. 🌟 Yeni özellik dalı oluşturun
+3. 💻 Değişikliklerinizi yapın
+4. 🧪 Testlerinizi yazın
+5. 📝 Pull request gönderin
+
+## 📝 Lisans
+
+Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 📧 İletişim
+
+- **E-posta**: [info@sirklc.com.tr](mailto:info@sirklc.com.tr)
+- **GitHub**: [@sirklc](https://github.com/sirklc)
+
+## 🌟 Teşekkürler
+
+Bu projeyi incelediğiniz için teşekkürler! Beğendiyseniz ⭐ vermeyi unutmayın.
+
+---
+
+**Versiyon**: 2.1  
+**Son Güncelleme**: 2024  
+**Platform Desteği**: Windows, macOS, Linux
